@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-charcoal font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .liquid-glass {
+    @apply bg-white/70 backdrop-blur-md shadow-glass-inner border border-white/20;
+  }
+  
+  .tactile-button {
+    @apply transition-transform duration-200 ease-out active:scale-[0.98];
+  }
+}
