@@ -14,7 +14,7 @@ export default function HowItWorks() {
     <section className="py-24 md:py-32 bg-cream text-charcoal border-b border-forest/10" id="how-it-works">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-16">
         
-        <div className="lg:col-span-5 sticky top-32 self-start">
+        <div className="lg:col-span-5 lg:sticky lg:top-32 lg:self-start">
           <h2 className="text-4xl md:text-5xl font-serif text-forest mb-6 tracking-tight">The Path to Leverage</h2>
           <p className="text-charcoal/70 text-lg leading-relaxed mb-8 max-w-sm">
             A linear progression to uncover friction and build durable, scalable professional service operations.
